@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
       body: JSON.stringify(signupBody),
     });
     if (response.status === 200) {
-      const data = await res.json();
+      const data = await response.json();
       localStorage.setItem('userId', data);
-      indow.location.href = '/dashboard';
+      window.location.href = '/dashboard';
     } else {
       const msg = await response.json();
       console.log(msg);
