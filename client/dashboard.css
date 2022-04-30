@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  /* display: flex; */
+}
+
+.todoItemContainer {
+  display: flex;
+}
+
+.todoItem {
+  margin-right: 15px;
+}
+
+/* button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: lavender;
+} */
